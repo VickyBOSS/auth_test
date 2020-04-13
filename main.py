@@ -7,6 +7,6 @@ user_repos = UserRepos() # UserRepo.__init__(user_repos)
 
 user = user_repos.signInWithEmailAndPassword(email, password) # User / None
 if user == None:
-    print("ur email or pass is wrong")
+    print("You email or pass is wrong")
 else :
     print("Congratulations ! You are signed in as {}".format(user.name))
